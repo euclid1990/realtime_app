@@ -1,0 +1,14 @@
+{
+    "name": "RealtimeApp",
+    "description": "The Realtime Application.",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "predis/predis": "1.0.0",
+        "firebase/php-jwt": "1.0.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
