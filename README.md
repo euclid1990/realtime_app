@@ -44,9 +44,9 @@ Listen 8887
 - Run App:
 ```
 # cd /path_to_realtime_app
-# node js/server.js
+# forever start js/server.js
 ```
-Goto: http://{IP}:8887
+Goto: http://{Your_IP}:8887
 
 ## Demo:
 ![alt text](http://gyazo.framgia.com/4oo.jpg "Demo app")
