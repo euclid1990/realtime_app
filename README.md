@@ -1,6 +1,10 @@
 Realtime Chat Application
 ========
 
+## Websocket là gì
+WebSoket là công nghệ hỗ trợ giao tiếp hai chiều giữa client và server bằng cách sử dụng một TCP socket để tạo một kết nối hiệu quả và ít tốn kém. Mặc dù được thiết kế để chuyên sử dụng cho các ứng dụng web, lập trình viên vẫn có thể đưa chúng vào bất kì loại ứng dụng nào.
+##### Socket.IO được tạo ra là để tận dụng websocket của html5 của các trình duyệt mới, để tạo ra các ứng dụng web thời gian thực. 
+
 ## Ứng dụng chat sử dụng NodeJS - Redis & PHP
 #### Nguyên tắc hoạt động:
 - Client kết nối tới Server thông qua websocket
