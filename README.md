@@ -1,3 +1,7 @@
 realtime_app
+
+Ứng dụng chat sử dụng NodeJS - Redis & PHP
+- Nguyên tắc hoạt động:
+Client kết nối tới Server thông qua websocket
+
 ============
-[![Build Status](https://travis-ci.org/nguyenvanvuong/realtime_app.svg)](https://travis-ci.org/nguyenvanvuong/realtime_app)
