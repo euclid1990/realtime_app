@@ -9,6 +9,14 @@ Realtime Chat Application
 - Với public notification: emit toàn bộ clients đang connect (Khi người dùng gửi message)
 - Với private notification: emit client mong muốn nhận notify (Khi người dùng poke nhau)
 
+## Source Code:
+- Hiển thị giao diện người dùng và khởi tạo Session:
+[**index.php**](index.php)
+- Xử lý hiển thị message trên client, kết nối đến server và nhận dữ liệu từ server:
+[**client.js**](js/client.js)
+- Xử lý khởi tạo socket kết nối với client, thực hiện đọc ghi dữ liệu trên redis và thông báo tới clients:
+[**server.js**](js/server.js)
+
 ## Hướng dẫn sử dụng:
 Cần cài đặt các thành phần sau khi sử dụng:
 - Apache 2.4 & PHP 5.4:
